@@ -1,0 +1,222 @@
+
+id: 3
+IP: 10.0.0.4
+Primary: 0
+log file: log_3.txt
+read current data => [0, 0, 0]
+read current data => [0, 0, 0]
+Initiating update for data item 2 ,to new value 43
+sending the update "3|2|43" to primary
+recieved update for data item 0, with seq no. 1
+1|0|37|1 is valid
+executing update => old value: 0 to new value: 37
+current view of datastore => [37, 0, 0]
+ack sent to primary for seq num 1
+recieved update for data item 2, with seq no. 3
+Buffering the update: 3|2|43|3
+recieved update for data item 2, with seq no. 2
+2|2|42|2 is valid
+executing update => old value: 0 to new value: 42
+current view of datastore => [37, 0, 42]
+ack sent to primary for seq num 2
+3|2|43|3 is valid
+executing update => old value: 42 to new value: 43
+current view of datastore => [37, 0, 43]
+ack sent to primary for seq num 3
+updated
+read current data => [37, 0, 43]
+read current data => [37, 0, 43]
+Initiating update for data item 2 ,to new value 38
+sending the update "3|2|38" to primary
+recieved update for data item 2, with seq no. 4
+3|2|38|4 is valid
+executing update => old value: 43 to new value: 38
+current view of datastore => [37, 0, 38]
+ack sent to primary for seq num 4
+recieved update for data item 2, with seq no. 5
+1|2|21|5 is valid
+executing update => old value: 38 to new value: 21
+current view of datastore => [37, 0, 21]
+ack sent to primary for seq num 5
+updated
+read current data => [37, 0, 21]
+read current data => [37, 0, 21]
+Initiating update for data item 1 ,to new value 15
+sending the update "3|1|15" to primary
+recieved update for data item 0, with seq no. 6
+2|0|0|6 is valid
+executing update => old value: 37 to new value: 0
+current view of datastore => [0, 0, 21]
+ack sent to primary for seq num 6
+recieved update for data item 1, with seq no. 7
+3|1|15|7 is valid
+executing update => old value: 0 to new value: 15
+current view of datastore => [0, 15, 21]
+ack sent to primary for seq num 7
+recieved update for data item 1, with seq no. 8
+1|1|11|8 is valid
+executing update => old value: 15 to new value: 11
+current view of datastore => [0, 11, 21]
+ack sent to primary for seq num 8
+recieved update for data item 1, with seq no. 9
+2|1|30|9 is valid
+executing update => old value: 11 to new value: 30
+current view of datastore => [0, 30, 21]
+ack sent to primary for seq num 9
+updated
+read current data => [0, 30, 21]
+read current data => [0, 30, 21]
+read current data => [0, 30, 21]
+read current data => [0, 30, 21]
+Initiating update for data item 1 ,to new value 47
+sending the update "3|1|47" to primary
+recieved update for data item 0, with seq no. 11
+Buffering the update: 1|0|10|11
+recieved update for data item 1, with seq no. 10
+3|1|47|10 is valid
+executing update => old value: 30 to new value: 47
+current view of datastore => [0, 47, 21]
+ack sent to primary for seq num 10
+recieved update for data item 2, with seq no. 12
+1|0|10|11 is valid
+executing update => old value: 0 to new value: 10
+current view of datastore => [10, 47, 21]
+ack sent to primary for seq num 11
+2|2|36|12 is valid
+executing update => old value: 21 to new value: 36
+current view of datastore => [10, 47, 36]
+ack sent to primary for seq num 12
+recieved update for data item 1, with seq no. 13
+1|1|12|13 is valid
+executing update => old value: 47 to new value: 12
+current view of datastore => [10, 12, 36]
+ack sent to primary for seq num 13
+updated
+read current data => [10, 12, 36]
+read current data => [10, 12, 36]
+read current data => [10, 12, 36]
+read current data => [10, 12, 36]
+read current data => [10, 12, 36]
+Initiating update for data item 0 ,to new value 34
+sending the update "3|0|34" to primary
+recieved update for data item 0, with seq no. 14
+3|0|34|14 is valid
+executing update => old value: 10 to new value: 34
+current view of datastore => [34, 12, 36]
+ack sent to primary for seq num 14
+recieved update for data item 0, with seq no. 15
+1|0|16|15 is valid
+executing update => old value: 34 to new value: 16
+current view of datastore => [16, 12, 36]
+ack sent to primary for seq num 15
+updated
+read current data => [16, 12, 36]
+Initiating update for data item 0 ,to new value 20
+sending the update "3|0|20" to primary
+recieved update for data item 1, with seq no. 16
+2|1|37|16 is valid
+executing update => old value: 12 to new value: 37
+current view of datastore => [16, 37, 36]
+ack sent to primary for seq num 16
+recieved update for data item 0, with seq no. 17
+3|0|20|17 is valid
+executing update => old value: 16 to new value: 20
+current view of datastore => [20, 37, 36]
+ack sent to primary for seq num 17
+recieved update for data item 0, with seq no. 18
+1|0|3|18 is valid
+executing update => old value: 20 to new value: 3
+current view of datastore => [3, 37, 36]
+ack sent to primary for seq num 18
+recieved update for data item 1, with seq no. 19
+2|1|17|19 is valid
+executing update => old value: 37 to new value: 17
+current view of datastore => [3, 17, 36]
+ack sent to primary for seq num 19
+updated
+read current data => [3, 17, 36]
+read current data => [3, 17, 36]
+read current data => [3, 17, 36]
+read current data => [3, 17, 36]
+Initiating update for data item 0 ,to new value 23
+sending the update "3|0|23" to primary
+recieved update for data item 0, with seq no. 21
+Buffering the update: 3|0|23|21
+recieved update for data item 1, with seq no. 20
+1|1|20|20 is valid
+executing update => old value: 17 to new value: 20
+current view of datastore => [3, 20, 36]
+ack sent to primary for seq num 20
+3|0|23|21 is valid
+executing update => old value: 3 to new value: 23
+current view of datastore => [23, 20, 36]
+ack sent to primary for seq num 21
+updated
+sending termination request to primary
+recieved update for data item 2, with seq no. 22
+2|2|43|22 is valid
+executing update => old value: 36 to new value: 43
+current view of datastore => [23, 20, 43]
+ack sent to primary for seq num 22
+recieved update for data item 0, with seq no. 23
+1|0|46|23 is valid
+executing update => old value: 23 to new value: 46
+current view of datastore => [46, 20, 43]
+ack sent to primary for seq num 23
+recieved update for data item 0, with seq no. 25
+Buffering the update: 1|0|45|25
+recieved update for data item 0, with seq no. 24
+2|0|35|24 is valid
+executing update => old value: 46 to new value: 35
+current view of datastore => [35, 20, 43]
+ack sent to primary for seq num 24
+1|0|45|25 is valid
+executing update => old value: 35 to new value: 45
+current view of datastore => [45, 20, 43]
+ack sent to primary for seq num 25
+recieved update for data item 0, with seq no. 26
+2|0|10|26 is valid
+executing update => old value: 45 to new value: 10
+current view of datastore => [10, 20, 43]
+ack sent to primary for seq num 26
+recieved update for data item 0, with seq no. 27
+2|0|42|27 is valid
+executing update => old value: 10 to new value: 42
+current view of datastore => [42, 20, 43]
+ack sent to primary for seq num 27
+recieved update for data item 0, with seq no. 28
+1|0|14|28 is valid
+executing update => old value: 42 to new value: 14
+current view of datastore => [14, 20, 43]
+ack sent to primary for seq num 28
+recieved update for data item 2, with seq no. 29
+2|2|34|29 is valid
+executing update => old value: 43 to new value: 34
+current view of datastore => [14, 20, 34]
+ack sent to primary for seq num 29
+recieved update for data item 2, with seq no. 30
+1|2|18|30 is valid
+executing update => old value: 34 to new value: 18
+current view of datastore => [14, 20, 18]
+ack sent to primary for seq num 30
+recieved update for data item 0, with seq no. 31
+2|0|2|31 is valid
+executing update => old value: 14 to new value: 2
+current view of datastore => [2, 20, 18]
+ack sent to primary for seq num 31
+recieved update for data item 1, with seq no. 32
+1|1|23|32 is valid
+executing update => old value: 20 to new value: 23
+current view of datastore => [2, 23, 18]
+ack sent to primary for seq num 32
+recieved update for data item 2, with seq no. 33
+2|2|20|33 is valid
+executing update => old value: 18 to new value: 20
+current view of datastore => [2, 23, 20]
+ack sent to primary for seq num 33
+recieved update for data item 1, with seq no. 34
+1|1|2|34 is valid
+executing update => old value: 23 to new value: 2
+current view of datastore => [2, 2, 20]
+ack sent to primary for seq num 34
+stopping server
